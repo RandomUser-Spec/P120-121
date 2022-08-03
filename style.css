@@ -1,0 +1,51 @@
+body
+{
+    animation-name: backgroundColorPalette;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+img
+{
+    align-items: center;
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+    border: 2px solid lightgreen;
+    width: 310px;
+    height: 300px;
+    box-shadow: 5px 5px 18px lightsalmon;
+}
+
+#title
+{
+    margin-left: 10px;
+    border: 2px solid black;
+    width: 50px;
+    height: 50px;
+}
+
+h1
+{
+    size: 20px;
+    color: gray;
+}
+
+@keyframes backgroundColorPalette {
+    0% {
+        background: #EE6055;
+    }
+    25% {
+        background: #60D394;
+    }
+    50% {
+        background: #AAF683;
+    }
+    75% {
+        background: #FFD97D;
+    }
+    100% {
+        background: #FF9B85;
+    }
+}
